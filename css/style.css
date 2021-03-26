@@ -1,0 +1,113 @@
+#top-header {
+  background: #000; }
+  #top-header .fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px; }
+
+#header {
+  background: url("../img/slide1.jpg");
+  background-size: cover;
+  min-height: 100px; }
+  #header img {
+    height: 100px; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-item video{
+  width: 100%; }
+
+.carousel-img-1 {
+  background: url("../img/slide2.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/slide3.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/slide1.jpg");
+  background-size: cover; }
+
+.marquee {
+  background: #1c333e;
+  color: #fff; }
+
+#home-section .sidebar li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600; }
+
+#home-section .sidebar ul li:hover {
+  background: #eef0f2; }
+
+#home-section .home-page {
+  background: #AED6F1;
+  border-radius: 3px; }
+
+#home-last {
+  background: #000; }
+  #home-last img {
+    width: 100px;
+    height: 140px;
+    opacity: 0.7; }
+  #home-last img:hover {
+    opacity: 1; }
+  #home-last .list-link ul {
+    list-style: none; }
+  #home-last .list-link li a {
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    color: #fff;
+    border-bottom: 1px dotted #aaa; }
+  #home-last .list-link a {
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    color: #fff; }
+
+#registration-section h2 {
+  text-decoration: underline; }
+
+#registration-section .reg-form {
+  border: 2px solid #fff;
+  padding: 40px;
+  font-size: 18px; }
+
+#contact-section hr{
+  border-top: 2px solid #fff;
+}
+#contact-section .btn-send{
+    text-align: center;
+  }
+
+#contact-section .con-form {
+  padding: 40px;
+  font-size: 18px; }
+
+#footer-section {
+  background: #000;
+  border-top: 1px solid #fff; }
+
+@media (max-width: 991px) {
+  .carousel h1 {
+    font-size: 3.5rem; } }
+
+@media (max-width: 767px) {
+  #top-header h5 {
+    font-size: 20px; }
+  #top-header .fa {
+    padding: 2px;
+    font-size: 20px; }
+  .carousel h1 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 480px) {
+  .carousel-item {
+    height: 450px; 
+  } 
+
+}
